@@ -1,60 +1,41 @@
 {
-  "context_servers": {
-    "mcp-server-context7": {
-      "source": "extension",
-      "enabled": true,
-      "settings": {
-        "default_minimum_tokens": "10000"
-      }
-    }
-  },
-  "agent": {
-    "always_allow_tool_actions": true,
-    "play_sound_when_agent_done": true,
-    "default_profile": "write",
-    "default_model": {
-      "provider": "google",
-      "model": "gemini-flash-latest"
-    }
-  },
   "theme": {
     "mode": "system",
-    "light": "Gruvbox Dark",
-    "dark": "One Dark Pro"
+    "light": "Ayu Light",
+    "dark": "Ayu Dark",
   },
   "icon_theme": "Catppuccin Mocha",
 
-
   "base_keymap": "SublimeText",
   // "vim_mode": true,
-  "ui_font_size": 20,
-  "buffer_font_size": 20,
+  "ui_font_size": 17,
+  "buffer_font_size": 17,
   "buffer_line_height": { "custom": 1.4 },
   "buffer_font_family": "JetBrainsMono Nerd Font",
 
   "buffer_font_features": {
-    "calt": false
+    "calt": false,
   },
   "buffer_font_weight": 400,
 
   "toolbar": {
     "breadcrumbs": false,
     "quick_actions": false,
-    "selections_menu": true
+    "selections_menu": true,
   },
   "project_panel": {
-    "entry_spacing": "comfortable"
+    "entry_spacing": "comfortable",
   },
   "tabs": {
-    "file_icons": true
+    "file_icons": true,
   },
   "git": {
     "inline_blame": {
-      "enabled": false
-    }
+      "enabled": false,
+    },
   },
   "format_on_save": "off",
   "hard_tabs": true,
   "tab_size": 4,
-  "current_line_highlight": "none"
+  "current_line_highlight": "none",
 }
